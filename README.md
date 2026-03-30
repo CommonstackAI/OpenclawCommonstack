@@ -4,6 +4,7 @@ OpenClaw provider plugin for [CommonStack](https://commonstack.ai) - a unified m
 
 Access 40+ models from OpenAI, Anthropic, Google, DeepSeek, MiniMax, Qwen, xAI and more through a single API key with pay-per-token billing.
 
+**ClawHub**: [openclaw-commonstack](https://clawhub.ai/plugins/openclaw-commonstack)
 **npm**: https://www.npmjs.com/package/openclaw-commonstack
 **GitHub**: https://github.com/CommonstackAI/OpenclawCommonstack
 
@@ -17,7 +18,19 @@ Access 40+ models from OpenAI, Anthropic, Google, DeepSeek, MiniMax, Qwen, xAI a
 ### Step 1: Install the plugin
 
 ```bash
+# Install from ClawHub / npm (auto-resolved)
 openclaw plugins install openclaw-commonstack
+```
+
+Alternative install methods:
+
+```bash
+# From git
+git clone https://github.com/CommonstackAI/OpenclawCommonstack.git
+openclaw plugins install ./OpenclawCommonstack
+
+# From local path (development)
+openclaw plugins install -l ./openclaw-commonstack
 ```
 
 ### Step 2: Restart the gateway
@@ -125,6 +138,10 @@ The plugin dynamically fetches all available models from CommonStack. As of now,
 | Xiaomi | mimo-v2-pro, mimo-v2-omni |
 
 For the full up-to-date list, visit [commonstack.ai](https://commonstack.ai).
+
+## Compatibility
+
+- OpenClaw >= 2026.3.28
 
 ## License
 
