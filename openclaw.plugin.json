@@ -1,0 +1,28 @@
+{
+  "id": "commonstack",
+  "enabledByDefault": true,
+  "providers": ["commonstack"],
+  "providerAuthEnvVars": {
+    "commonstack": ["COMMONSTACK_API_KEY"]
+  },
+  "providerAuthChoices": [
+    {
+      "provider": "commonstack",
+      "method": "api-key",
+      "choiceId": "commonstack-api-key",
+      "choiceLabel": "CommonStack API key",
+      "groupId": "commonstack",
+      "groupLabel": "CommonStack",
+      "groupHint": "Unified Model Gateway with smart routing",
+      "optionKey": "commonstackApiKey",
+      "cliFlag": "--commonstack-api-key",
+      "cliOption": "--commonstack-api-key <key>",
+      "cliDescription": "CommonStack API key"
+    }
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

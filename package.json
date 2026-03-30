@@ -1,0 +1,41 @@
+{
+  "name": "openclaw-commonstack",
+  "version": "1.0.0",
+  "description": "OpenClaw CommonStack provider plugin - unified gateway for OpenAI, Anthropic, Google, DeepSeek, MiniMax, Qwen and more. One API key, pay-per-token billing.",
+  "type": "module",
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "commonstack",
+    "llm",
+    "openai",
+    "anthropic",
+    "google",
+    "deepseek",
+    "provider"
+  ],
+  "homepage": "https://commonstack.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ironmr/openclaw-commonstack"
+  },
+  "author": "ironmr",
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "models.ts",
+    "provider-catalog.ts",
+    "onboard.ts",
+    "api.ts",
+    "openclaw.plugin.json",
+    "README.md"
+  ],
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  }
+}
