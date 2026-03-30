@@ -5,7 +5,9 @@ OpenClaw provider plugin for [CommonStack](https://commonstack.ai) - a unified m
 Access 40+ models from OpenAI, Anthropic, Google, DeepSeek, MiniMax, Qwen, xAI and more through a single API key with pay-per-token billing.
 
 **ClawHub**: [openclaw-commonstack](https://clawhub.ai/plugins/openclaw-commonstack)
+
 **npm**: https://www.npmjs.com/package/openclaw-commonstack
+
 **GitHub**: https://github.com/CommonstackAI/OpenclawCommonstack
 
 ## Prerequisites
@@ -124,18 +126,18 @@ openclaw plugins uninstall commonstack
 
 The plugin dynamically fetches all available models from CommonStack. As of now, this includes models from:
 
-| Provider | Example Models |
-|----------|---------------|
-| OpenAI | gpt-4.1, gpt-5, gpt-5.4, gpt-4o-mini |
-| Anthropic | claude-sonnet-4-6, claude-opus-4-6, claude-haiku-4-5 |
-| Google | gemini-2.5-flash, gemini-2.5-pro, gemini-3-pro-preview |
-| DeepSeek | deepseek-v3.1, deepseek-v3.2, deepseek-r1-0528 |
-| MiniMax | minimax-m2, minimax-m2.5, minimax-m2.7 |
-| Qwen | qwen3.5-397b-a17b, qwen3-coder-480b-a35b-instruct |
-| xAI | grok-4.1-fast-reasoning, grok-code-fast-1 |
-| Zhipu | glm-5, glm-4.7, glm-5-turbo |
-| Kimi | kimi-k2.5, kimi-k2-thinking |
-| Xiaomi | mimo-v2-pro, mimo-v2-omni |
+| Provider  | Example Models                                         |
+| --------- | ------------------------------------------------------ |
+| OpenAI    | gpt-4.1, gpt-5, gpt-5.4, gpt-4o-mini                   |
+| Anthropic | claude-sonnet-4-6, claude-opus-4-6, claude-haiku-4-5   |
+| Google    | gemini-2.5-flash, gemini-2.5-pro, gemini-3-pro-preview |
+| DeepSeek  | deepseek-v3.1, deepseek-v3.2, deepseek-r1-0528         |
+| MiniMax   | minimax-m2, minimax-m2.5, minimax-m2.7                 |
+| Qwen      | qwen3.5-397b-a17b, qwen3-coder-480b-a35b-instruct      |
+| xAI       | grok-4.1-fast-reasoning, grok-code-fast-1              |
+| Zhipu     | glm-5, glm-4.7, glm-5-turbo                            |
+| Kimi      | kimi-k2.5, kimi-k2-thinking                            |
+| Xiaomi    | mimo-v2-pro, mimo-v2-omni                              |
 
 For the full up-to-date list, visit [commonstack.ai](https://commonstack.ai).
 
