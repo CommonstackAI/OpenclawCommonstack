@@ -17,9 +17,9 @@
   "homepage": "https://commonstack.ai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ironmr/openclaw-commonstack"
+    "url": "https://github.com/CommonstackAI/OpenclawCommonstack"
   },
-  "author": "ironmr",
+  "author": "flhoilyd",
   "license": "MIT",
   "files": [
     "index.ts",
